@@ -43,17 +43,18 @@ __index.py__
         def helloworld():
           return "Hello World"
         if __name__ == "__main__":
-          app.run()
+          app.run(host="0.0.0.0")
+          
+![image](https://user-images.githubusercontent.com/40049149/186707242-481add34-4e6c-4b31-84d3-1191493a7c3f.png)
 
 6. Jika sudah sekarang jalankan aplikasi dengan menggunakan perintah berikut ini.
 
         python3 index.py
 
-image1
+![image](https://user-images.githubusercontent.com/40049149/186704134-677e6a7b-07cc-4759-a4e0-07fadee678f8.png)
 
-image1
+7. Sekarang coba akses web browser kalian setelah itu kalian coba akses dengan localhost:5000 atau localIP:5000
 
-7. Sekarang coba akses web browser kalian setelah itu kalian coba akses dengan localhost:5000
-
+![image](https://user-images.githubusercontent.com/40049149/186707504-647e8cd2-8572-4b58-bc9b-336fe1787339.png)
 
 
